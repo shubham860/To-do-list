@@ -12,7 +12,7 @@ body{
    background-image: url('..\\images\\second.jpg');
    margin-top:15px;
    margin-left: 100px;
-   height: 400px;
+   height: 550px;
    width:  700px;
    opacity: 0.70;
    filter: alpha(opacity=70);
@@ -31,7 +31,7 @@ h1{
 
 .input{
   width:80%;
-  height:17%;
+  height:14%;
   font-size: 100%;
 
 }

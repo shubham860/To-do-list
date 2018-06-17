@@ -1,10 +1,11 @@
-function todolist() {
-  if(input.value == "")
+function list() {
+  var item =  document.getElementsByClassName("input").value;
+  if(item == "")
   {
-    alert("YOU MUST ENTER SOME TASK..");
+    window.alert("YOU MUST ENTER SOME TASK..");
   }
   else{
-       var item =  document.getElementsById("btn1").value;
+       var item =  document.getElementsByClassName("input").value;
        var text = document.createTextnode(item);
        var newitem = document.createElement("li");
        newitem.appendChild(text);
