@@ -9,15 +9,11 @@ function list() {
   {
       count += 1;
 
-      document.getElementById("todolist").innerHTML += '<li id="'+count+'"><input type="checkbox" id="myCheck" onclick="strike()" class="strikethrough"> <label for="packersOff" class="strikeThis">'+item+'</label></li>';
+      document.getElementById("todolist").innerHTML += '<li><input type="checkbox" id="myCheck" class="strikethrough"><label for="strike" class="strikeThis">'+item+'</label></li>';
        document.getElementById("ip").value = "";
   }
 }
 
-function del(count)
-{
-  document.getElementById(count).innerHTML = "";
-}
 
 function refresh()
 {
