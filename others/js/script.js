@@ -8,7 +8,7 @@ function list() {
   else
   {
       count += 1;
-      
+
       document.getElementById("todolist").innerHTML += '<li id="'+count+'"><button type="button" onclick="del('+count+')"></button>'+item+'</li>';
        document.getElementById("ip").value = "";
   }
@@ -19,7 +19,7 @@ function del(count)
   document.getElementById(count).innerHTML = "";
 }
 
-function clear()
+function refresh()
 {
   document.getElementById("todolist").innerHTML = "";
 }
