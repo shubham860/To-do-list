@@ -9,7 +9,7 @@ function list() {
   {
       count += 1;
 
-      document.getElementById("todolist").innerHTML += '<li id="'+count+'"><button type="button" onclick="del('+count+')"></button>'+item+'</li>';
+      document.getElementById("todolist").innerHTML += '<li id="'+count+'"><input type="checkbox" id="myCheck" onclick="strike()" class="strikethrough"> <label for="packersOff" class="strikeThis">'+item+'</label></li>';
        document.getElementById("ip").value = "";
   }
 }
