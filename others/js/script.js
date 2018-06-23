@@ -1,4 +1,3 @@
-var count = 0;
 function list() {
   var item =  document.getElementById("ip").value;
   if(item == "")
@@ -7,8 +6,6 @@ function list() {
   }
   else
   {
-      count += 1;
-
       document.getElementById("todolist").innerHTML += '<li><input type="checkbox" id="myCheck" class="strikethrough"><label for="strike" class="strikeThis">'+item+'</label></li>';
        document.getElementById("ip").value = "";
   }
