@@ -1,3 +1,5 @@
+AOS.init();
+
 function list() {
   var item =  document.getElementById("ip").value;
   if(item == "")
