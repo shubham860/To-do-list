@@ -11,9 +11,8 @@ body{
 .jumbotron{
    background-image: url('..\\images\\second.jpg');
    margin-top:15px;
-   margin-left: 100px;
+   
    height: 550px;
-   width:  700px;
    opacity: 0.69;
    filter: alpha(opacity=70);
    border-style: solid;
